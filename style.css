@@ -1,0 +1,28 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url("background.jpg") no-repeat;
+    background-size: cover;
+
+}
+
+.box {
+    font-family: myFirstFont;
+    width: 450px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+#imagem_perfil {
+    border-radius: 50%;
+}
